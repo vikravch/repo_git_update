@@ -12,7 +12,7 @@ echo "# repo_git_update" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git branch -M hotfix/main
+git branch -M main
 git remote add origin https://github.com/vikravch/repo_git_update.git
 git push -u origin main
 
